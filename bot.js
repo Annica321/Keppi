@@ -10,7 +10,7 @@ bot.on('message', msg => {
   var command = msg.content.toLowerCase()
   var answer = ["yes kero!", "no kero!", "maybe kero!", "I can't say kero!", "I don't know kero!", "I'm too hungry to reply kero!"];
 
-      if (command.includes( ['hey keppi i love you'] )){
+      if (command.includes( ['keppi i love you'] )){
         msg.react('💚');
         }
 
