@@ -17,8 +17,9 @@ bot.on('message', msg => {
         if (command.includes( ['hey keppi'] )){
           msg.reply('Kero!');
           }
+  
 
-  else if ( command.startsWith(['hey'])  && command.endsWith(['?']) ){
+  else if ( command.startsWith(['keppi'])  && command.endsWith(['?']) ){
       msg.reply(answer[Math.floor(Math.random()*answer.length)]);
       }
   });
