@@ -1,11 +1,11 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('ready', () => {
+bot.on('ready', () => {
   console.log('Ready for dedth!');
 });
 
-client.on('message', msg => { 
+bot.on('message', msg => { 
 
   var command = msg.content.toLowerCase()
   var answer = ["yes kero!", "no kero!", "maybe kero!", "I can't say kero!", "I don't know kero!", "I'm too hungry to reply kero!"];
