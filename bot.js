@@ -18,7 +18,7 @@ bot.on('message', msg => {
           msg.reply('Kero!');
           }
   
-  if (command.includes( ['goodnight keppi'] )){
+  if (command.includes( ['good night keppi'] )){
           msg.reply('Good night kero!');
           }
 
